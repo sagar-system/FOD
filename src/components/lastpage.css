@@ -1,0 +1,121 @@
+div{
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  
+  font-family:'Times New Roman', Times, serif;
+  background-color: #f8f9fa;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+
+}
+
+
+
+.footer-container {
+  background-color: whitesmoke; /* Dark background for the footer */
+  color: #000000; /* Light text color */
+  padding: 20px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+.footer-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.footer-header-row {
+  background-color: #ffffff; /* Slightly lighter background for header */
+}
+
+.footer-header {
+  padding: 15px;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.footer-content-row {
+  background-color: #dfe2e4; /* Same as footer container */
+}
+
+.footer-description {
+  padding: 15px;
+}
+
+.footer-text {
+  white-space: pre-wrap; 
+  
+  /* Preserve whitespace and line breaks */
+}
+
+.footer-links {
+  padding: 15px;
+}
+
+.links-list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+}
+
+.link-item {
+  margin: 5px 0;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.link-item:hover {
+  color: #000000; /* Change color on hover */
+}
+
+.footer-newsletter {
+  padding: 15px;
+}
+
+.newsletter-list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+}
+
+.newsletter-text-item {
+  margin-bottom: 10px;
+}
+
+.newsletter-text {
+  white-space: pre-wrap; /* Preserve whitespace and line breaks */
+}
+
+.newsletter-form-item {
+  display: flex;
+  align-items: center;
+}
+
+.newsletter-input {
+  padding: 10px;
+  border: 1px solid #bdc3c7; /* Light border */
+  border-radius: 4px;
+  flex: 1; /* Take up available space */
+  margin-right: 10px; /* Space between input and button */
+}
+
+.submit-btn {
+  padding: 10px 15px;
+  background-color: #b80303; /* Button color */
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #ec0e0e; /* Darker button color on hover */
+  flex-shrink: unset;
+}
+
+.copyright-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+}

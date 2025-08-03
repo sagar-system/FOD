@@ -1,0 +1,95 @@
+
+.background-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+   url('car1.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 10%;
+  color: rgb(255, 234, 234);
+  text-align: left;
+  padding-bottom:15% ;
+  
+}
+
+/* Text styles */
+.background-container h1 {
+  font-size: 4.5rem;
+  font-weight: 900;
+  margin: 0.5rem 0;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.background-container h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0.5rem 0;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+  align-items: left;
+}
+
+/* Remove pre formatting while keeping content */
+.background-container pre {
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+  white-space: pre-wrap;
+}
+
+/* Button styles */
+.background-container button {
+  background-color: #ff0000; /* Red background */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(221, 220, 220, 0);
+}
+
+.background-container button:hover {
+  background-color: #ff3333; /* Lighter red on hover */
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.7); /* Red glow effect */
+  transform: translateY(-2px);
+}
+.background-container button:active{
+  background-color: #ff3333; /* Lighter red on hover */
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.7); /* Red glow effect */
+  transform: translateY(-2px);
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .background-container {
+    padding: 0 5%;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .background-container h1 {
+    font-size: 2.5rem;
+  }
+  
+  .background-container h4 {
+    font-size: 1.1rem;
+  }
+  
+  .background-container button {
+    padding: 12px 30px;
+    font-size: 1rem;
+  }
+}
