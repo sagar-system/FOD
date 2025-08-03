@@ -16,7 +16,7 @@ export default function Navbar() {  // Changed to PascalCase
         <li className='navbar-item'><Link to="/home">Home</Link></li>  {/* Changed className */}
         <li className='navbar-item'><Link to="/subscribe">SUBSCRIBE</Link></li>
         <li className='navbar-item'><Link to="/contact">CONTACTS</Link></li>
-        <li className='navbar-item'><Link to="/about">ABOUT</Link></li>
+        <li className='navbar-item'><Link to="/about">Profile</Link></li>
         <li className='search'>
           <input type="search" placeholder='SEARCH 🔍' />
            
